@@ -1,0 +1,51 @@
+.container{
+    background-color:rgb(61, 60, 60);
+    color:White;
+}
+#header{
+    padding:2%;
+} 
+#middle{
+    margin-top:2%;
+}
+.name-designation{
+    float:left;
+    font-weight:bold;
+}
+.contact-details{
+    float:right;
+    font-size:15px;
+}
+.my-image{
+    border-radius:50%;
+    width:120px;
+    height:100px;
+    margin-left:30%;
+    margin-top:3%;
+    display:flex;
+    flex:center;
+}
+h1{
+    font-family:monospace; 
+    font-size:50px; 
+}
+h3{
+    margin-top:3%;
+    margin-bottom:;
+    font-family:monospace;
+}
+h4{
+    font-family:monospace;
+}
+#edu-skills{
+    background-color:white;
+    color:black;
+}
+#about{
+    background-color:rgb(209, 195, 197);
+    color:black;
+}
+.skill-list{
+    font-weight:bold;
+    
+}
