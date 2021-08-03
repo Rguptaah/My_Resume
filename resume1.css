@@ -37,13 +37,12 @@ body {
 
 h1 {
     /* font-family: monospace; */
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
 h3 {
     margin-top: 3%;
-    margin-bottom: 3%;
     text-transform: uppercase;
     /* font-family: monospace; */
 }
@@ -51,6 +50,10 @@ h3 {
 h4 {
     /* font-family: monospace; */
     text-transform: uppercase;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 #edu-skills {
@@ -76,19 +79,49 @@ h4 {
 
 .skill-list {
     font-weight: bold;
+    list-style-type: none;
 }
 
 .social-links {
     list-style-type: none;
+    padding: 5px;
 }
+
+.social-links a:hover {
+    color: rgb(36, 36, 54);
+    font-size: medium;
+}
+
+.social-links a {
+    color: rgb(38, 38, 102);
+    font-size: small;
+}
+
 
 #footer {
     width: inherit;
-    height: 10vh;
+    height: 4vh;
     text-align: center;
+    font-size: 12px;
 }
 
 #footer p {
-    width: 300px;
     margin: auto;
+}
+
+#footer p a {
+    color: white;
+}
+
+#footer p a:hover {
+    color: rgb(230, 224, 224);
+    text-decoration: none;
+}
+
+#footer p .right {
+    float: right;
+}
+
+#footer p .left {
+    float: left;
 }
