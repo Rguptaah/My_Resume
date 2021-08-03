@@ -90,6 +90,7 @@ h5 {
 .social-links a:hover {
     color: rgb(36, 36, 54);
     font-size: medium;
+    transition: .5s;
 }
 
 .social-links a {
